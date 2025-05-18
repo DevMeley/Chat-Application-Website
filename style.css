@@ -11,6 +11,9 @@
 body{
     margin:20px 140px 40px 140px;
     font-family: "DM sans";
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
 } 
 h2, h3, h4, h5{
     font-family: "U8-Regular";
@@ -28,7 +31,8 @@ p{
     font-family: "DM sans";
     font-size: 16px;
     font-weight: normal;
-    line-height: 1.5
+    line-height: 1.5;
+    color: #444444;
 }
 button{
     padding: 16px 32px;
@@ -49,7 +53,6 @@ header{
     display: flex;
     flex-direction: column;
     gap: 100px;
-    margin-bottom: 100px;
 }
 /* nav bar */
 nav{
@@ -207,4 +210,138 @@ section{
 }
 .start_selling_left_side{
     width: 400px;
+}
+
+
+
+
+
+.get_direct_order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get_direct_right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+}
+.get_direct_right_txt{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.get_direct_right_figures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    gap: 20px;
+}
+.left h4{
+    font-size: 22px;
+}
+.left p{
+    font-size: 12px;
+}
+
+
+
+/* Testimony */
+
+.testimony_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.testimony_section h2{
+    text-align: center;
+}
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.testimony_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.testimony_txt{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+.testimony_txt h4{
+    color: #FB8E0B;
+}
+.testimony_txt p{
+    font-size: 12px;
+}
+
+.customer_info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.customer_info img{
+    width: 40px;
+}
+.customer_info p{
+    font-size: 10px;
+    margin-top: 8px;
+}
+.CTA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.CTA h2{
+    text-align: center;
+    width: 600px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.upper_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.lower_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #4444;
+    padding-top: 20px;
+
+}
+.lower_footer p{
+    font-size: 12px;
+}
+.term_and_condition{
+    display: flex;
+    gap: 20px;
 }
