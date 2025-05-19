@@ -413,9 +413,9 @@ footer li:hover {
 
 /* Responsive nav */
 
-@media (max-width: 900px) {
+@media (max-width: 420px) {
   body {
-    margin: 40px;
+    margin: 0 40px 0 40px;
   }
 
   h1 {
@@ -457,13 +457,15 @@ footer li:hover {
   }
   .left_hero_section {
     gap: 40px;
+    width: 300px;
   }
   .hero_text_and_button h1 {
-    width: 400px;
+    width: 300px;
     line-height: 1.5;
+    font-size: 32px;
   }
   .hero_text_and_button p {
-    width: 350px;
+    width: 300px;
     font-size: 18px;
   }
   .customers {
@@ -510,22 +512,35 @@ footer li:hover {
     gap: 36px;
   }
   .right_side img {
-    width: 400px;
+    width: 300px;
+  }
+  .left_side_p{
+    width: 300px;
   }
   .start_selling {
     flex-direction: column-reverse;
   gap: 36px;
 }
 .start_selling_right_side img {
-    width: 450px;
+    width: 350px;
+  }
+  .start_selling_left_side{
+    width: 300px;
   }
   .get_direct_order {
     flex-direction: column;
   justify-content: space-between;
   gap: 36px;
+  width: 300px;
+  }
+  .get_direct_right{
+    width: 300px;
+  }
+.get_direct_right_txt{
+    width: 300px;
 }
 .get_direct_order_left img{
-    width: 400px;
+    width: 300px;
 }
 /* Testimony */
 .testimony_section{
@@ -538,10 +553,13 @@ footer li:hover {
   align-items: center;
   gap: 100px;
 }
+.testimony_txt{
+    width: 300px;
+}
 
 .CTA h2 {
   text-align: center;
-  width: 400px;
+  width: 300px;
 }
 .upper_footer {
     flex-direction: column;
