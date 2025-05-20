@@ -455,9 +455,9 @@ footer li:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 90px;
+    top: 50px;
     right: 0;
-    left: 10px;
+    left: 15px;
     width: 90vw;
     background-color: #f1f3f5;
     box-shadow: 0 8px 16px rgba(0,0,0,0.08);
