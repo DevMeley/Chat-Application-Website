@@ -39,6 +39,7 @@ p {
   color: #444444;
 }
 button {
+    font-family: "U8-Regular";
   padding: 16px 32px;
   border-radius: 8px;
   cursor: pointer;
