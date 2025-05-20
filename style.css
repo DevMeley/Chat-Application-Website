@@ -76,11 +76,11 @@ nav {
   transition: background 0.3s;
 }
 
-.nav_links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
 
 nav .logo {
@@ -103,8 +103,6 @@ nav .logo {
   transition: color 0.2s, border-bottom 0.2s;
   border-bottom: 2px solid transparent;
 }
-
-
 
 .nav_links li:last-child {
   margin-right: 0;
@@ -227,10 +225,10 @@ section {
 }
 
 .meet_your_customer {
-  /* background-color: #C4C4C4; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 .left_side {
   display: flex;
@@ -296,21 +294,32 @@ section {
 /* Testimony */
 
 .testimony_section {
-  margin-left: -50vw;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50.55vw;
   margin-right: -50vw;
+  background-color: #fb8e0b;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  background-color: #fb8e0b;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  overflow-x: hidden;
 }
-.testimony_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.testimony_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 .testimony_section h2 {
   text-align: center;
@@ -449,10 +458,10 @@ footer li:hover {
   nav {
     padding: 0 20px;
   }
-  .nav_links{
+  .nav_links {
     flex-direction: column;
   }
-  .nav_links ul{
+  .nav_links ul {
     flex-direction: column;
   }
   .nav_links {
@@ -465,15 +474,15 @@ footer li:hover {
     left: 15px;
     width: 90vw;
     background-color: #f1f3f5;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
-    padding: 40px 0 ;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    padding: 40px 0;
     gap: 32px;
     z-index: 200;
     height: auto;
     transform: translateY(20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
-  .nav_btns{
+  .nav_btns {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -486,7 +495,7 @@ footer li:hover {
     display: block;
     z-index: 201;
   }
-  .fa-bars{
+  .fa-bars {
     color: #922323;
   }
 
@@ -554,65 +563,65 @@ footer li:hover {
   .right_side img {
     width: 300px;
   }
-  .left_side_p{
+  .left_side_p {
     width: 300px;
   }
   .start_selling {
     flex-direction: column-reverse;
-  gap: 36px;
-}
-.start_selling_right_side img {
+    gap: 36px;
+  }
+  .start_selling_right_side img {
     width: 350px;
   }
-  .start_selling_left_side{
+  .start_selling_left_side {
     width: 300px;
   }
   .get_direct_order {
     flex-direction: column;
-  justify-content: space-between;
-  gap: 36px;
-  width: 300px;
-  margin-left: 16px;
+    justify-content: space-between;
+    gap: 36px;
+    width: 300px;
+    margin-left: 16px;
   }
-  .get_direct_right{
+  .get_direct_right {
     width: 300px;
   }
-.get_direct_right_txt{
+  .get_direct_right_txt {
     width: 300px;
-}
-.get_direct_order_left img{
+  }
+  .get_direct_order_left img {
     width: 300px;
-}
-/* Testimony */
-.testimony_section{
-    margin-left: -9.7vw;
-    margin-right: -9.7vw;
-}
-.testimony {
+  }
+  /* Testimony */
+  .testimony_section {
+    margin-left: -51.8vw;
+    margin-right: -50vw;
+  }
+  .testimony {
     flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-}
-.testimony_txt{
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .testimony_txt {
     width: 300px;
-}
+  }
 
-.CTA h2 {
-  text-align: center;
-  width: 300px;
-}
-.upper_footer {
+  .CTA h2 {
+    text-align: center;
+    width: 300px;
+  }
+  .upper_footer {
     flex-direction: column;
-  align-items: center;
-  gap: 30px
-}
-footer li{
+    align-items: center;
+    gap: 30px;
+  }
+  footer li {
     font-size: 12px;
     padding: 0 8px;
-}
-.lower_footer{
+  }
+  .lower_footer {
     flex-direction: column;
     gap: 30px;
-}
+  }
 }
